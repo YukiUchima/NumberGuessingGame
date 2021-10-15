@@ -117,3 +117,48 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media (max-width: 800px) {
+  * {
+    color: blue;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .again {
+    font-size: 1rem;
+  }
+  .between {
+    font-size: 1rem;
+  }
+  .check {
+    font-size: 1rem;
+  }
+  .number {
+    font-size: 3rem;
+    width: 7.5rem;
+    padding: 1rem 0rem;
+  }
+  main {
+    font-size: 0.5rem;
+  }
+  .guess {
+    background: none;
+    border: 1px solid #eee;
+    color: inherit;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 10rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem;
+  }
+  .left {
+    width: 50%;
+    font-size: 1rem;
+  }
+  .right {
+    width: 50%;
+    font-size: 1rem;
+  }
+}
