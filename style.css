@@ -118,9 +118,9 @@ h1 {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   * {
-    color: blue;
+    color: rgb(149, 149, 255);
   }
   h1 {
     font-size: 2rem;
